@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description" content="Anupam is a backend heavy developer with interest in cloud native solutions." />
+   <title>meet-Anupam</title>
+   <!-- HOSTED -->
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet" />
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- LOCAL -->
+   <link rel="stylesheet" href="style.css" />
+
+   <!-- HOSTED -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+   <!-- LOCAL -->
+</head>
+
+<body>
+   <!-- HOME -->
+   <section id="home" class="flex home">
+      <div id="pt" class="canvas"></div>
+      <!-- fix the canvas -->
+      <div class="flex">
+         <div class="text">
+            Hello, meet <span class="highlight">Anupam</span>-
+            <br />
+            A backend developer & cloud engineer.<br />
+         </div>
+
+         <a class="scroll button" id="scroll-to-about" href="#about">Explore more
+            <ion-icon class="main-arrow" name="arrow-forward-outline"></ion-icon>
+         </a>
+
+         <!-- NAVIGATION -->
+         <nav class="flex row" id="nav">
+            <ul class="flex row main-nav">
+               <li>
+                  <a class="scroll active" id="nav-home" href="#home">home</a>
+               </li>
+               <li>
+                  <a class="scroll" id="nav-about" href="#about">about</a>
+               </li>
+               <li>
+                  <a class="scroll" id="nav-certifications" href="#certifications">certifications</a>
+               </li>
+               <li>
+                  <a class="scroll" id="nav-projects" href="#projects">projects</a>
+               </li>
+               <li>
+                  <a class="scroll" id="nav-blogs" href="#blogs">blogs</a>
+               </li>
+               <li>
+                  <a class="scroll" id="nav-publications" href="#publications">
+                     publications
+                  </a>
+               </li>
+               <li>
+                  <a id="nav-resume" href="files/resume.pdf" target="_blank">resume</a>
+               </li>
+               <li>
+                  <a class="scroll" id="nav-contact" href="#contact">contact</a>
+               </li>
+            </ul>
+            <li class="mobile-nav-icon">
+               <ion-icon name="menu-outline"></ion-icon>
+            </li>
+         </nav>
+      </div>
+   </section>
+
+   <!-- ABOUT -->
+   <section id="about" class="flex">
+      <div class="container flex">
+         <div class="header" data-aos="fade-left">
+            ABOUT
+         </div>
+         <div class="header-bar" data-aos="fade-right"></div>
+
+         <div id="features" class="flex row block">
+            <div class="flex row">
+               <div class="flex bullet-wrap" data-aos="flip-left">
+                  <div class="circle-wrap" data-aos="zoom-in">
+                     <div class="circle">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="label bold">
+                     Fast Paced
+                  </div>
+               </div>
+               <div class="flex bullet-wrap" data-aos="flip-left" data-aos-delay="200">
+                  <div class="circle-wrap" data-aos="zoom-in">
+                     <div class="circle">
+                        <ion-icon name="people-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="label bold">
+                     Team Player
+                  </div>
+               </div>
+
+               <div class="flex bullet-wrap" data-aos="flip-left" data-aos-delay="400">
+                  <div class="circle-wrap" data-aos="zoom-in">
+                     <div class="circle">
+                        <ion-icon name="person-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="label bold">
+                     Individual Contributor
+                  </div>
+               </div>
+               <div class="flex bullet-wrap" data-aos="flip-left" data-aos-delay="600">
+                  <div class="circle-wrap" data-aos="zoom-in">
+                     <div class="circle">
+                        <ion-icon name="build-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="label bold">
+                     Tailered To Your Needs
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div id="skills" class="skills flex row">
+            <div id="about-me" class="flex one" data-aos="fade-right">
+               <img src="img/me.jpg" class="me" alt="Anupam Raj Image" data-aos="flip-right" />
+               <!-- ABOUT ANUPAM TEXT -->
+               <div class="label">
+                  Meet Anupam
+                  <hr />
+               </div>
+
+               <div class="skills-text">
+                  Anupam is a seasoned backend developer & cloud engineer.
+                  <!-- <a class="getcare" href="https://www.linkedin.com/company/yourmd-ca/">YourMD.ca,</a> -->
+                  <br />
+                  He has over four years of experience in planning, executing, and delivering
+                  complex software projects using cutting-edge technologies and best practices. He is passionate about
+                  solving challenging problems, learning new skills, and collaborating with diverse and talented teams.
+                  <span class="page-link highlight"><a href="#contact" id="scroll-to-contact" class="scroll bold">Want
+                        to talk more over a Coffee?</a></span>
+               </div>
+            </div>
+            <!-- BAR GRAPH -->
+            <div id="bar-graph" class="flex block bars-wrap" data-aos="fade-left">
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="500"></div>
+                  <div class="tag flex">JavaScript / Node.js</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="600"></div>
+                  <div class="tag flex">TypeScript</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="700"></div>
+                  <div class="tag flex">Python / Django</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="800"></div>
+                  <div class="tag flex">Go</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="900"></div>
+                  <div class="tag flex">Java</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="1000"></div>
+                  <div class="tag flex">REST/GraphQL/gRPC API</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="1100"></div>
+                  <div class="tag flex">Database Technologies</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="1200"></div>
+                  <div class="tag flex">Containerization & Orchestration</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="1300"></div>
+                  <div class="tag flex">System Design & Architecture</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="1400"></div>
+                  <div class="tag flex">AWS Cloud Solutions</div>
+               </div>
+
+               <div class="bar flex">
+                  <div class="bar fill" data-width="95%;" data-delay="1500"></div>
+                  <div class="tag flex">IaC (Terraform)</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- CERTIFICATIONS -->
+   <section id="certifications">
+      <div class="container flex">
+         <div class="header" data-aos="fade-left">
+            CERTIFICATIONS
+         </div>
+         <div class="header-bar" data-aos="fade-right"></div>
+
+         <div id="certifications-group" class="flex row wrap" data-aos="fade-in">
+            <div class="flex row">
+               <div class="certifications-wrap">
+                  <div class="fade">
+                     <a href="https://www.credly.com/badges/e157a730-4d82-489d-9d79-efba3851b1f8/public_url"
+                        target="_blank">
+                        <div class="thumb" id="thumb-1"></div>
+                        <div class="label">
+                           <img src="img/aws-developer.png" class="cert" alt="aws developer certificate"
+                              data-aos="flip-right" />
+                        </div>
+                        <div class="bar"></div>
+                     </a>
+                  </div>
+               </div>
+               <div class="certifications-wrap">
+                  <div class="fade">
+                     <a href="https://www.credly.com/badges/98d6e91c-bfa5-4441-a13b-429ca6997527/public_url"
+                        target="_blank">
+                        <div class="thumb" id="thumb-1"></div>
+                        <div class="label">
+                           <img src="img/aws-solutions-architect.png" class="cert"
+                              alt="aws solutions architect certificate" data-aos="flip-right" />
+                        </div>
+                        <div class="bar"></div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="flex row">
+               <div class="certifications-wrap">
+                  <div class="fade">
+                     <a href="https://www.credly.com/badges/26889224-7141-4567-9399-497c2554b1bf/public_url"
+                        target="_blank">
+                        <div class="thumb" id="thumb-1"></div>
+                        <div class="label">
+                           <img src="img/terraform.png" class="cert" alt="terraform certificate"
+                              data-aos="flip-right" />
+                        </div>
+                        <div class="bar"></div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </section>
+   <!-- PROJECTS -->
+   <section class="flex" id="projects">
+      <div class="header" data-aos="fade-left">PROJECTS</div>
+      <div class="header-bar" data-aos="fade-right"></div>
+
+      <div id="project-filter" class="flex row">
+         <button class="active" type="button" data-filter="all">
+            ALL
+         </button>
+         <button type="button" data-filter=".js">
+            JAVASCRIPT
+         </button>
+         <button type="button" data-filter=".python">
+            PYTHON
+         </button>
+         <button type="button" data-filter=".go">
+            GO
+         </button>
+         <button type="button" data-filter=".react">
+            REACT
+         </button>
+      </div>
+
+      <div id="gallery" class="container flex row wrap">
+         <div class="mix js" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400" data-aos-offset="-800">
+            <div class="card"></div>
+            <div class="text">
+               <div>
+                  CAREHealth: Get the care you need
+               </div>
+               <span class="highlight">Node.js/React/GraphQL</span>
+            </div>
+            <button type="button" id="getCare">LEARN MORE</button>
+         </div>
+         <div class="mix js" data-aos="fade-up" data-aos-delay="400" data-aos-duration="400" data-aos-offset="-800">
+            <div class="card"></div>
+            <div class="text">
+               <div>
+                  Excursion: Exciting Tours
+               </div>
+               <span class="highlight">JavaScript/Node.js</span>
+            </div>
+            <button type="button" id="excursion">LEARN MORE</button>
+         </div>
+         <div class="mix js react" data-aos="fade-up" data-aos-delay="800" data-aos-duration="400"
+            data-aos-offset="-800">
+            <div class="card"></div>
+            <div class="text">
+               <div>
+                  The Burger Builder
+               </div>
+               <span class="highlight">React/JavaScript</span>
+            </div>
+            <button type="button" id="burger">LEARN MORE</button>
+         </div>
+         <div class="mix js" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="400" data-aos-offset="-800">
+            <div class="card"></div>
+            <div class="text">
+               <div>
+                  Shopper's: All That You Can Buy
+               </div>
+               <span class="highlight">JavaScript/Node.js</span>
+            </div>
+            <button type="button" id="shoppers">LEARN MORE</button>
+         </div>
+
+         <div class="mix js" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="400" data-aos-offset="-800">
+            <div class="card"></div>
+            <div class="text">
+               <div>
+                  The Chat App
+               </div>
+               <span class="highlight">Socket.IO/Node.js</span>
+            </div>
+            <button type="button" id="chat">LEARN MORE</button>
+         </div>
+      </div>
+
+      <!-- MODAL -->
+      <div class="modal flex" id="modal">
+         <div class="modal-window">
+            <div class="carousel-wrap">
+               <div id="carousel">
+                  <div class="slide"></div>
+                  <div class="slide"></div>
+                  <div class="slide"></div>
+               </div>
+               <ion-icon id="carousel-previous" name="play-back-circle-outline"></ion-icon>
+               <ion-icon id="carousel-next" name="play-forward-circle-outline"></ion-icon>
+            </div>
+            <div class="info-box flex">
+               <div class="title"></div>
+               <div class="tag"></div>
+               <div class="detail"></div>
+               <div class="flex modal-bottom">
+                  <a class="button" href="#" target="_blank">
+                     <ion-icon id="open-website" name="open-outline"></ion-icon>VIEW SITE
+                  </a>
+                  <ion-icon id="modal-close" name="close-circle-outline"></ion-icon>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- </div> -->
+      <!-- </div> -->
+   </section>
+
+   <!-- BLOGS -->
+   <section id="blogs">
+      <div class="container flex">
+         <div class="header" data-aos="fade-left">
+            BLOGS
+         </div>
+         <div class="header-bar" data-aos="fade-right"></div>
+
+         <div id="blogs-group" class="flex row wrap" data-aos="fade-in">
+            <div class="flex row">
+               <div class="blogs-wrap">
+                  <div class="fade">
+                     <a href="https://medium.com/@raj.anupam16/role-based-dual-authorization-in-graphql-and-mongoose-models-ea277e3df79b"
+                        target="_blank">
+                        <div class="thumb" id="thumb-1"></div>
+                        <div class="label">
+                           Role based dual authorization for MongoDB in Node.js/Express using REST/GraphQL and Mongoose
+                           models
+                        </div>
+                        <div class="bar"></div>
+                        <div class="text">
+                           The problem was to design a system where two or more kind of user roles can access the same
+                           API endpoints, but still be able to distinguish between what content these different user
+                           roles can see / modify in the database...
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="flex row" style="height: 0;">
+               <div class="blogs-wrap">
+               </div>
+               <div class="blogs-wrap">
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </section>
+
+   <!-- PUBLICATIONS -->
+   <section id="publications">
+      <div class="container flex">
+         <div class="header" data-aos="fade-left">
+            PAPERS PUBLISHED
+         </div>
+         <div class="header-bar" data-aos="fade-right"></div>
+
+         <div id="publications-group" class="flex row wrap" data-aos="fade-in">
+            <div class="flex row">
+               <div class="publication-wrap">
+                  <div class="fade">
+                     <a href="https://asmedigitalcollection.asme.org/POWER/proceedings-abstract/POWER2018/51395/V001T06A011/277449"
+                        target="_blank">
+                        <div class="thumb" id="thumb-1"></div>
+                        <div class="label">
+                           Techno-Economic Analysis of a PV-Battery System for a Commercial
+                           Building Under Different Utility Rate Structures
+                        </div>
+                        <div class="date">OCTOBER 2018</div>
+                        <div class="bar"></div>
+                        <div class="text">
+                           The synergy between solar photovoltaic (PV) systems and
+                           behind-the-meter battery storage to reduce utility costs in buildings
+                           has drawn increasing attention...
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="publication-wrap">
+                  <div class="fade">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S2351978920308131" target="_blank">
+                        <div class="thumb" id="thumb-2"></div>
+                        <div class="label">
+                           Energy Conservation Building Code based optimum wall composition with
+                           respect to thermal transmittance and thickness...
+                        </div>
+                        <div class="date">MAY 2020</div>
+                        <div class="bar"></div>
+                        <div class="text">
+                           A surge in the commercial sector especially in the Tier-1 cities has
+                           been identified across the country. Due to the demand for...
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="flex row">
+               <div class="publication-wrap">
+                  <div class="fade">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S235197892030812X" target="_blank">
+                        <div class="thumb" id="thumb-3"></div>
+                        <div class="label">
+                           Optimization based feasibility analysis for Energy Conservation
+                           Building Code compliance of opaque wall assemblies...
+                        </div>
+                        <div class="date">MAY 2020</div>
+                        <div class="bar"></div>
+                        <div class="text">
+                           Thermal performance of building envelopes is the determinant factor of
+                           building energy consumption. The total built up area of commercial
+                           buildings...
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="publication-wrap">
+                  <div class="fade">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S2351978920308118" target="_blank">
+                        <div class="thumb" id="thumb-4"></div>
+                        <div class="label">
+                           Optimization based feasibility study for filler slabs as a response
+                           towards the Energy Conservation Building Code roof compliance...
+                        </div>
+                        <div class="date">MAY 2020</div>
+                        <div class="bar"></div>
+                        <div class="text">
+                           The Energy Conservation Building Code will soon be made mandatory pan
+                           India and the building designs must comply with the criteria for
+                           energy efficiency...
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="publications-group" class="flex row wrap" data-aos="fade-in">
+            <div class="flex row">
+               <div class="publication-wrap">
+                  <div class="fade">
+                     <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85140471014&origin=inward&txGid=13427a02f33d07d93299099f545af29e" target="_blank">
+                        <div class="thumb" id="thumb-5"></div>
+                        <div class="label">
+                           Impact of BIPV Panels Across Various Window-to-Wall Ratios in Commercial Buildings, to Reduce its Energy Performance Index in Warm and Humid Climate Zone of India(Conference Paper)
+                        </div>
+                        <div class="date">APRIL 2021</div>
+                        <div class="bar"></div>
+                        <div class="text">
+                           People and technology have to keep up with this ever-moving fast-growing world. Building sectors are not only increasing in floor area but also demand more energy and builds up pressure over at the supply end...
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="publication-wrap">
+                  <div class="fade">
+                     <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85140444948&origin=inward&txGid=02d1f7e1e60325286320afad71d9de5d" target="_blank">
+                        <div class="thumb" id="thumb-6"></div>
+                        <div class="label">
+                           Facade Material Identification for Optimizing Building Energy Consumption Across Various WWRs for ECBC(Code) Compliant Buildings in Warm-Humid Climate, India(Conference Paper)
+                        </div>
+                        <div class="date">APRIL 2021</div>
+                        <div class="bar"></div>
+                        <div class="text">
+                           Increase in population has led to increase in built up environment around the world. The demand for a better lifestyle has developed a high pressure on the Energy Sector to keep up with the day-to-day needs...
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="flex row" style="height: 0;">
+               <div class="publication-wrap">
+               </div>
+               <div class="publication-wrap">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- CONTACT -->
+   <section id="contact">
+      <div class="container flex">
+         <div class="header" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-offset="100">
+            CONTACT
+         </div>
+         <div class="header-bar" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-offset="100">
+         </div>
+         <div>
+            <div class="text">
+               Have a question or want to work together?
+            </div>
+         </div>
+         <div>
+            <div class="text">
+               Drop a message on <a style="pointer-events: all; text-decoration: underline; color: white;"
+                  href="https://www.linkedin.com/in/anupam-raj/" target="_blank">
+                  LinkedIn
+               </a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <a href="#home" class="scroll" id="scroll-to-home"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
+
+      <div class="flex row">
+         <a href="https://www.linkedin.com/in/anupam-raj/" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+         </a>
+         <a href="https://github.com/anupamraj16/" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+         </a>
+      </div>
+
+      <div class="footnote">Anupam Raj <span class="highlight">&copy; 2020</span></div>
+   </footer>
+   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init({
+         offset: -500,
+         duration: 1000,
+         anchorPlacement: 'top-top',
+      })
+   </script>
+   <script src="scripts/mixitup.min.js"></script>
+   <script src="scripts/pt.min.js"></script>
+   <script src="scripts/canvas.js"></script>
+   <script src="scripts/index.js"></script>
+   <script src="scripts/modal.js"></script>
+   <script src="scripts/nav.js"></script>
+</body>
+
+</html>
